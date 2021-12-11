@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_details"
+            android:icon="@drawable/ic_round_account_circle_24"
+            android:title="user details" />
+        <item
+            android:id="@+id/nav_document"
+            android:icon="@drawable/ic_round_add_to_photos_24"
+            android:title="document" />
+
+
+    </group>
+</menu>

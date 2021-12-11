@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bus"
+    tools:context=".ui.document" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:backgroundTint="#20FFFFFF"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/textview_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:text="Photo"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/document_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#20FFFFFF"
+            android:text="Choose File"
+            android:textAllCaps="false"
+            android:textColor="#FBFBFB"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/textview_aadhar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="200dp"
+            android:text="Aadhar Card"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/document_aadhar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="195dp"
+            android:backgroundTint="#20FFFFFF"
+            android:text="Choose File"
+            android:textAllCaps="false"
+            android:textColor="#FBFBFB"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textview_bonafide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="360dp"
+            android:text="Current sem receipt"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/document_bonafide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="355dp"
+            android:backgroundTint="#20FFFFFF"
+            android:text="Choose File"
+            android:textAllCaps="false"
+            android:textColor="#FBFBFB"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/iphoto_view"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="90dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            tools:src="@color/material_on_background_disabled" />
+
+        <ImageView
+            android:id="@+id/iaadhar_view"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="250dp"
+            android:background="#000B0A0A"
+            android:backgroundTint="#00FFFFFF"
+            tools:src="@color/material_on_background_disabled" />
+
+        <ImageView
+            android:id="@+id/ibonafide_view"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="420dp"
+            tools:src="@color/material_on_background_disabled" />
+
+        <Button
+            android:id="@+id/aadharaddbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            android:text="Aadhar add"
+            android:textAllCaps="true"
+            android:textColor="#FBFBFB"
+            android:textSize="24sp"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="210dp"/>
+        <Button
+            android:id="@+id/document_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="130dp"
+            android:backgroundTint="#00FFFFFF"
+            android:text="Photo Add"
+            android:textAllCaps="true"
+            android:textColor="#FBFBFB"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bonafideaddbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receipt add"
+            android:textAllCaps="true"
+            android:textColor="#FBFBFB"
+            android:textSize="22sp"
+            android:backgroundTint="#00FFFFFF"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="460dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</FrameLayout>
