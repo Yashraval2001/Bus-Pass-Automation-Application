@@ -18,3 +18,7 @@ Once the user have register and login in the app He/ She will enter information 
 
 Admin Module:-
 In this module admin have accept or denied the request of user buss pass and also verify his/ her document if all information are correct then admin accept the request. 
+
+Database:- Firebase 
+language:-Kotlin
+etc,..
