@@ -1,5 +1,5 @@
 # BusPass-App
-By Yashkuamr Raval(19012011069)
+By Yashkuamr Raval
 Batch:-MAD2
 
 Process:-
