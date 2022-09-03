@@ -1,6 +1,6 @@
 # BusPass-App
 By Yashkuamr Raval
-Batch:-MAD2
+
 
 Process:-
 To get a new bus pass the user has to register in the prescribed application format, and for the students, who are all accessing this service have to upload the relevant documents such as aadhar card, photos, school/college letter to be uploaded. Once the verification process got completed either by the admin/depot officer. The bus pass based on the selected category what they have opted has been sent to their registered mail id. They can get print out of their bus pass from e-mail. After they could also carry it in the laminated hard copy format also. 
